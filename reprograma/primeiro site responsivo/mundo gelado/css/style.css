@@ -1,11 +1,12 @@
 *{
+   margin: 0;
+   padding: 0;
     box-sizing: border-box; 
   
 }
 
 a{
     text-decoration: none;
-    text-transform: uppercase;
     text-align: center;
     color: #fff;
 }
@@ -16,78 +17,300 @@ a , p {
 h1, h2, h3 {
     font-family: "Varela Round", "sans-serif";
 }
+
+.container{
+    margin: 0 auto;
+    
+}
 .nav{
 
 background-color: #a0bed0;
-display: flex;
-justify-content: flex-end;
-padding: 20px;
-position: fixed;
-width: 100%;
 top: 0;
+height: 75px;
+position: fixed;
+width:100%;
+
+}
+
+.nav__mobile{
+    display: none;
+    width: 20%;
+    height: 20%;
+}
+
+ul, li{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  
 }
 
 .nav a{
-   margin: 5px;
+  
+    margin: 50px;
    color: #f8f9fa;
    font-weight: bolder;
+   
+  
 }
 
 .fundo{
     background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 500px;
+    margin-top: 75px;
+    text-align: center;
    
 }
 
-.titulo{
-  margin: o auto;
-    text-align: center;
-}
-.titulo h1{
+   
+.fundo__titulo{
  
     text-transform: uppercase;
-    font-size: 105px;
+    font-size: 50px;
     color: #fff;
     opacity: 0.5;
+    font-weight: lighter;
 }
-.titulo p{
+
+.fundo__subtitulo{
     color: #fff;
     opacity: 0.5;
+    font-size: 17px;
+    font-weight: 400px;
 }
 
 .btn{
-  
-    border-radius: 5px;
-    background-color: gray;
+  color: #fff;
+    background-color: #829dad;
+    text-transform:uppercase;
+    font-size: 14px;
     padding: 20px;
-    font-weight: bolder;
-   
-    width: 27%;
+    border-radius: 5px;
+    width: 18%;
+    display: inline-block;
+    margin-top: 30px;
+  
 }
 
 
 .black{
-    background-color:#000;;
+    background-color:#686868;
+    height:250px;
     color: #fff;
-    margin: 0;
+}
+
+.text{
+    text-align: center;
+  padding: 100px;
 }
 
 .siberia{
+    margin: 70px;
     display: flex;
-
-
+    
 }
-
+.texto{
+    margin-top: 70px;
+    padding: 100px;
+}
 .siberia img{
-    height: 1000px;
-    width: 200px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 70%;
+    height: 70%;
 }
 
-.bk{
-    background-color: #000;
-    color: #fff;
-    font-weight: bolder;
- 
+.twins{
+    margin: 70px;
+     
 }
+.back{
+    background-color: #505050;
+    color:#fff;
+    padding: 100px;
+   
+  
+}
+.groenlandia{
+    display: flex;
+}
+
+.groenlandia img{
+    
+    height: 50%;
+    width: 50%;
+  
+}
+
+.antartida{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.antartida img{
+    height: 50%;
+    width: 50%;
+}
+
+.copy{
+    background-color: #101010;
+    text-align: center;
+    padding: 100px;
+
+}
+
+.tel{
+    font-family: "nunito", sans-serif;
+    color:#888888;
+    font-weight: bolder;
+}
+
+.copy p{
+    color: #888888;
+}
+
+.contato{
+    margin: 45px;
+}
+
+.contato a{
+    margin: 10px;
+}
+
+
+@media(max-width: 768px){
+   .siberia{
+       margin: 30px;
+   }
+   .texto{
+       padding: 20px;
+   }
+
+   .twins{
+       margin: 30px;
+   }
+
+   .back{
+       font-size: smaller;
+       height: 230px;
+       padding: 30px;
+   }
+
+   .groenlandia  img{
+       height: 70%
+       width:70%;
+   }
+      
+}
+
+
+
+
+
+
+@media(max-width: 420px){
+    .nav{
+       background-color:#fff;
+       height: 30px;
+       margin: 0;
+
+    }
+    .nav a{
+        display: none;
+
+    }
+    .nav__mobile{
+        display: block;
+        text-align: right;
+    }
+     .fundo{
+      margin-top: 60px;
+     }
+    .fundo__titulo{
+        font-size: 30px;
+    }
+    
+    .fundo__subtitulo{
+        font-size: 9px;
+    }
+
+    .btn{
+        padding: 10px;
+        width: 35%;
+    }
+
+    .text{
+        padding: 5px;
+
+    }
+    .siberia{
+       display: block;
+        width: 100%;
+        margin: 5px;
+    }
+
+    .siberia img{
+
+        margin: 30px 0 1px 0;
+        width: 100%;
+    }
+
+    .texto{
+        width: 100%;
+        margin: 1px 0 20px 0;
+        padding: 0;
+    }
+
+    .twins{
+    
+        margin: 0;
+        width: 100%;
+    }
+    .antartida{
+    display: block;
+    margin: 30px 0 1px 0;
+   
+    }
+
+    .antartida img{
+        width: 100%;
+    }
+
+    .groenlandia img{
+        width: 100%;
+    }
+
+    .groenlandia{
+        display: block;
+        margin: 30px 0 1px 0;
+    }
+
+
+    .back{
+
+    font-size: smaller;
+    margin-bottom: 20px;
+    }
+
+    .copy{
+       padding: 5px;
+    }
+    
+    .tel{
+        font-size: smaller;
+       
+
+    }
+    
+    .contato{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+}
+
+
+
+
+
