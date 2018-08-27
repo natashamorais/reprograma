@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    border:0;
+}
+
+.tech{
+    font-size: 20px;
+    color: lightblue;
+    font-weight: bold;
+
+}
+.mulheres{
+    color:purple;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.menu__item{
+    display: inline;
+    background-color: lavenderblush;
+    list-style: none;
+    padding-right: 20px;
+    margin-right:20px;
+    border-right: 1px solid black;
+    
+}
+
+.menu__item a{
+    text-decoration:none;
+    color: black;
+}
+
+.topbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 95px;
+    margin-bottom: 10px;
+    background-color: lavenderblush;
+}
+
+.container{
+    width:70%;
+
+}
+
+header{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    color: red;
+    font-weight: lighter;
+
+}
+
+.conteudo__texto{
+    display: inline-block;
+    width: 49%;
+    
+    
+    
+}
+
+
+.conteudo__imagem{
+    width: 400px;
+    height: 250px;
+    background-color: purple;
+    width: 49%;
+    
+    display: inline-block;
+}
+
+
+
+
+hr{
+    width: 10%;
+    border: 2px solid black;
+
+}
+
+
+
+.grupo-botoes{
+    text-align: center;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+
+.botao{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid grey;
+   text-decoration: none;
+   color: grey;
+}
+

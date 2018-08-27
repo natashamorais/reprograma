@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box; 
+  
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+a , p {
+    font-family: "nunito", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Varela Round", "sans-serif";
+}
+.nav{
+
+background-color: #a0bed0;
+display: flex;
+justify-content: flex-end;
+padding: 20px;
+position: fixed;
+width: 100%;
+top: 0;
+}
+
+.nav a{
+   margin: 5px;
+   color: #f8f9fa;
+   font-weight: bolder;
+}
+
+.fundo{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+   
+}
+
+.titulo{
+  margin: o auto;
+    text-align: center;
+}
+.titulo h1{
+ 
+    text-transform: uppercase;
+    font-size: 105px;
+    color: #fff;
+    opacity: 0.5;
+}
+.titulo p{
+    color: #fff;
+    opacity: 0.5;
+}
+
+.btn{
+  
+    border-radius: 5px;
+    background-color: gray;
+    padding: 20px;
+    font-weight: bolder;
+   
+    width: 27%;
+}
+
+
+.black{
+    background-color:#000;;
+    color: #fff;
+    margin: 0;
+}
+
+.siberia{
+    display: flex;
+
+
+}
+
+.siberia img{
+    height: 1000px;
+    width: 200px;
+}
+
+.bk{
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+ 
+}

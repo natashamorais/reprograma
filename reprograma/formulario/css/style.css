@@ -1,0 +1,41 @@
+*{
+  box-sizing; border-box;
+}
+
+form{
+  margin: 50px 200px;
+}
+
+body{
+font-family: 'Open-Sans' , Helvetica, Arial;
+color: #4a4a4a; 
+}
+
+.coluna{
+ display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+.lado{
+ display: inline-block;
+ width: 49%;
+
+}
+
+input[type = "checkbox"]{
+  display: block;
+  
+}
+.box{
+  margin-bottom: 40px;
+}
+
+.bola{
+margin-bottom: 40px;
+}
+
+input[type ="radio"]{
+  display: block;
+}
+

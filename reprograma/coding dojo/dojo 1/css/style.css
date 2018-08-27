@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.artigo{
+    display: inline-block;
+    width: 49%;
+    padding: 0 50px;
+
+}
+
+section{
+    width:50%;
+    margin:0 auto;
+
+}
+
+/*
+.artigo__destaque{
+    font-size:24px;
+    font-weight:bold;
+
+}
+*/

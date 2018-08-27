@@ -1,0 +1,16 @@
+ /*seletor {
+     propriedade : valor;
+ }
+
+ */
+ p { 
+    color: pink;
+
+ }
+
+ h1 {
+     font-family: Arial, Helvetica, sans-serif; 
+     color: pink;
+     text-transform: uppercase;
+     font-weight: lighter; 
+ }

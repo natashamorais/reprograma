@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "open sans", Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+@media (max-width:420px){
+    .menu{
+        display: none;
+    }
+
+    .container .autora{
+        display: none;
+        
+        
+    }
+
+    .coluna{
+        width: 100%;
+        text-align: center;
+       
+    }    
+    
+    .rodape{
+        width: 100%;
+
+    }
+}
+
+
+
+
+.topbar {
+position: fixed;
+top: 0;
+background-color: white;
+width: 100%;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .15)
+
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.menu{
+    margin-left: 500px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+   .menu__list {
+   display: inline;
+   text-decoration: none;
+   list-style: none;
+   margin-right: 20px; 
+   
+}
+
+.menu__list a{
+   text-decoration:none;
+   text-transform: uppercase;
+   color: grey;
+   font-weight: lighter;
+}
+
+
+header{
+    padding: 50px; 
+}
+
+.header__titulo{
+   
+    text-transform: uppercase;
+    color: #9013FE;
+    font-weight:lighter;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+.mulhere{
+    display: inline-block;
+}
+
+
+
+.autora{
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 20px;
+    vertical-align: top;
+    height: 480px;
+    margin:65px 10px auto auto;
+    display: inline-block;
+    width: 30%;
+    
+}
+
+.autora__nome , .autora__ocupacao{
+    margin: 0;
+}
+
+.autora__nome{
+    margin-top: 10px;
+}
+
+
+.coluna{
+display:inline-block;
+width:65%;
+}
+
+article{
+
+
+    padding:20px; 
+    margin-left: 90px;
+    
+}
+
+
+.article__titulo {
+    font-size:36px;
+    margin-top: 0;
+
+}
+
+.article p {
+    font-size: 24px;
+    
+}
+
+footer{
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+
+.rodape p{
+    margin:0;
+    padding: 10px 0;
+}
+
+

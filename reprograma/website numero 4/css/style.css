@@ -1,0 +1,70 @@
+
+
+*{
+    box-sizing:border-box;
+}
+.all{
+    color: #5D1277;
+    font-family:"lato", Arial, Helvetica, sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.conteudo{
+    width:960px;
+    margin: 0 auto;
+    display:flex;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.conteudo__imagem{
+    width: 49%;
+   display: inline-block;
+   padding: 20px; 
+}
+
+.conteudo__list{
+    vertical-align: top;
+    width: 49%;
+    display: inline-block;
+    padding: 20px; 
+    
+}
+
+
+
+.conteudo__botao_roxo{
+ background-color:#5D1277;
+ color: white;
+ width: 49%;
+ display:inline-block;
+ border-radius: 7px;
+ margin: 10px;
+ padding: 10px;
+ text-align: center;
+}
+
+.conteudo__botao_roxo a{
+    color: white;
+}
+
+.conteudo__botao_transparente{
+   color:#5D1277;
+   background-color: transparent;
+   border:1px solid #5D1277;
+   width: 49%;
+   display:inline-block;
+   border-radius: 7px;
+   margin: 10px;
+   padding:10px;
+   text-align: center;
+}
+
+
+

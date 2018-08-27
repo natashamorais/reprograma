@@ -1,0 +1,45 @@
+.text{
+text-align: center;
+    font-family: "lato", helvetica;
+}
+
+h1{
+    font-family: "lato", helvetica;
+    font-style: semibold;
+    font-size: 36px;
+    align: center;
+    color: #5D1277;
+
+}
+
+p{
+    font-style: semibold;
+    font-family: "lato", helvetica;
+    font-size: 24px;
+    align: right;
+    color: #4F4F4F;
+}
+
+    body{
+        background-image:url(../img/wallpaper.png);
+        padding: 50 px auto 0 auto;
+        margin: 400px;
+        border: purple; 
+        margin-top: 50px;
+    
+}
+    
+.geral {background-color: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0  15px black;
+    
+}
+
+.link img{
+    width: 60px;
+    margin: 10px;
+    text-align: center;
+
+}
